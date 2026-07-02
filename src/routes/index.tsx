@@ -424,75 +424,85 @@ function Index() {
       </section>
 
 
-            {/* LOCATION */}
+                  {/* LOCATION */}
       <section id="location" className="bg-secondary/60 py-24 sm:py-32">
-        <div className="mx-auto max-w-4xl px-6 sm:px-8">
+        <div className="mx-auto max-w-5xl px-6 sm:px-8">
           <Reveal>
-            <p className="font-sans text-xs uppercase tracking-[0.35em] text-accent">
-              Visit
-            </p>
-            <h2 className="mt-5 text-4xl text-forest sm:text-5xl">Find your way in</h2>
-
-            <div className="mt-10 space-y-8">
-              <div className="flex gap-4">
-                <MapPin className="mt-1 shrink-0 text-accent" size={20} />
+            <div className="rounded-[2rem] bg-cream/70 px-6 py-10 shadow-[0_24px_80px_-55px_rgba(0,0,0,0.35)] sm:px-10 sm:py-12">
+              <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
                 <div>
-                  <p className="font-serif text-lg text-forest">Address</p>
-                  <p className="font-sans text-sm font-light text-muted-foreground">
-                    Alzeina, Al Raha RBW2, 1 — Abu Dhabi, United Arab Emirates
+                  <p className="font-sans text-xs uppercase tracking-[0.35em] text-accent">
+                    Visit
+                  </p>
+                  <h2 className="mt-5 text-4xl text-forest sm:text-5xl">
+                    Find your way in
+                  </h2>
+                  <p className="mt-5 max-w-md font-sans text-sm font-light leading-7 text-muted-foreground">
+                    Hidden in Al Raha, JITHER is open daily for slow mornings,
+                    quiet coffee moments, and fresh bakes.
                   </p>
                 </div>
-              </div>
 
-              <div className="flex gap-4">
-                <Clock className="mt-1 shrink-0 text-accent" size={20} />
-                <div className="w-full">
-                  <p className="font-serif text-lg text-forest">Opening Hours</p>
-                  <ul className="mt-3 max-w-xl space-y-1">
-                    {hours.map(([d, t]) => (
-                      <li
-                        key={d}
-                        className="flex justify-between gap-8 font-sans text-sm font-light text-muted-foreground"
-                      >
-                        <span>{d}</span>
-                        <span>{t}</span>
-                      </li>
-                    ))}
-                  </ul>
+                <div className="space-y-6">
+                  <div className="rounded-[1.5rem] border border-forest/10 bg-background/70 p-5">
+                    <div className="flex gap-4">
+                      <MapPin className="mt-1 shrink-0 text-accent" size={20} />
+                      <div>
+                        <p className="font-serif text-xl text-forest">Address</p>
+                        <p className="mt-1 font-sans text-sm font-light leading-6 text-muted-foreground">
+                          Alzeina, Al Raha RBW2, 1 — Abu Dhabi, United Arab Emirates
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[1.5rem] border border-forest/10 bg-background/70 p-5">
+                    <div className="flex gap-4">
+                      <Clock className="mt-1 shrink-0 text-accent" size={20} />
+                      <div>
+                        <p className="font-serif text-xl text-forest">Opening Hours</p>
+                        <p className="mt-1 font-sans text-sm font-light text-muted-foreground">
+                          Open daily from 7 AM – 11 PM
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[1.5rem] border border-forest/10 bg-background/70 p-5">
+                    <div className="flex gap-4">
+                      <Phone className="mt-1 shrink-0 text-accent" size={20} />
+                      <div>
+                        <p className="font-serif text-xl text-forest">Call</p>
+                        <a
+                          href="tel:+971585861551"
+                          className="mt-1 inline-block font-sans text-sm font-light text-muted-foreground transition-colors hover:text-accent"
+                        >
+                          058 586 1551
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-wrap gap-3 pt-2">
+                    <a
+                      href="https://maps.google.com/?q=Jither+Cafe+Al+Raha+Abu+Dhabi"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-full bg-forest px-6 py-3 font-sans text-sm text-cream transition-colors hover:bg-forest/90"
+                    >
+                      Get Directions
+                    </a>
+                    <a
+                      href="https://wa.me/971585861551"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full border border-forest/40 px-6 py-3 font-sans text-sm text-forest transition-colors hover:bg-forest hover:text-cream"
+                    >
+                      <MessageCircle size={16} /> WhatsApp
+                    </a>
+                  </div>
                 </div>
               </div>
-
-              <div className="flex gap-4">
-                <Phone className="mt-1 shrink-0 text-accent" size={20} />
-                <div>
-                  <p className="font-serif text-lg text-forest">Call</p>
-                  <a
-                    href="tel:+971585861551"
-                    className="font-sans text-sm font-light text-muted-foreground hover:text-accent"
-                  >
-                    058 586 1551
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-10 flex flex-wrap gap-3">
-              <a
-                href="https://maps.google.com/?q=Jither+Cafe+Al+Raha+Abu+Dhabi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-forest px-6 py-3 font-sans text-sm text-cream transition-colors hover:bg-forest/90"
-              >
-                Get Directions
-              </a>
-              <a
-                href="https://wa.me/971585861551"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-forest/40 px-6 py-3 font-sans text-sm text-forest transition-colors hover:bg-forest hover:text-cream"
-              >
-                <MessageCircle size={16} /> WhatsApp
-              </a>
             </div>
           </Reveal>
         </div>
