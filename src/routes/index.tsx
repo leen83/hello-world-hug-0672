@@ -528,6 +528,14 @@ function Index() {
           >
             <Instagram size={18} /> @jither.ae
           </a>
+          <a
+  href="https://www.tiktok.com/@jither.ae"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-3 rounded-full border border-forest/30 px-7 py-4 font-sans text-sm text-forest transition-colors hover:bg-forest hover:text-cream"
+>
+  TikTok
+</a>
         </Reveal>
 
         <div className="mt-14 grid grid-cols-2 gap-4 sm:grid-cols-4">
