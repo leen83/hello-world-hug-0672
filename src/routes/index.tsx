@@ -332,17 +332,30 @@ function Index() {
               <img src={images.storefront} alt="JITHER outdoor terrace" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={80} className="h-full">
-              <PhotoSlot aspect="h-full" className="!rounded-3xl border-cream/30 bg-cream/5 text-cream/60" />
+              <img src={images.signage} alt="JITHER metal signage on a warm wall" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={140} className="h-full">
-              <PhotoSlot aspect="h-full" className="!rounded-3xl border-cream/30 bg-cream/5 text-cream/60" />
+              <img src={images.hotchoc} alt="Hot chocolate with toasted marshmallows" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={200} className="col-span-2 h-full">
-              <PhotoSlot aspect="h-full" className="!rounded-3xl border-cream/30 bg-cream/5 text-cream/60" />
+              <img src={images.bagelapron} alt="Barista holding a JITHER seeded bagel" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={260} className="h-full">
-              <PhotoSlot aspect="h-full" className="!rounded-3xl border-cream/30 bg-cream/5 text-cream/60" />
+              <img src={images.orangecoffee} alt="Iced orange coffee with dried citrus" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
+            <Reveal delay={80} className="h-full">
+              <img src={images.softserve} alt="JITHER soft serve with cocoa dusting" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+            <Reveal delay={140} className="h-full">
+              <img src={images.hibiscus} alt="Iced hibiscus drink with dried orange" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+            <Reveal delay={200} className="h-full">
+              <img src={images.coconutcake} alt="Coconut cake slice" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+            <Reveal delay={260} className="h-full">
+              <img src={images.carrotcake} alt="Carrot cake slice with cream" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+
           </div>
         </div>
       </section>
