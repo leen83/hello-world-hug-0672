@@ -9,7 +9,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 import { Navbar } from "@/components/site/Navbar";
-import { Reveal, PhotoSlot } from "@/components/site/Reveal";
+import { Reveal } from "@/components/site/Reveal";
 import { images } from "@/lib/images";
 
 export const Route = createFileRoute("/")({
