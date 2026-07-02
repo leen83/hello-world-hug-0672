@@ -109,19 +109,16 @@ const menu = [
 const reviews = [
   {
     name: "Amira H.",
-    role: "Local Guide",
     text: "The coffee is sooo good — honestly one of the best I've had. The whole vibe of the place is elegant and cozy at the same time.",
     stars: 5,
   },
   {
     name: "Vladimir C.",
-    role: "Local Guide",
     text: "Very cozy vibe. The coffee tastes amazing and the pastries and bagels are delicious. Quiet and unassuming — perfect for remote work.",
     stars: 5,
   },
   {
     name: "Rashed A.",
-    role: "Local Guide",
     text: "Cool spot for coffee, already been there multiple times for their piccolo. Great quality coffee and highly recommended.",
     stars: 5,
   },
