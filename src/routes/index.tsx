@@ -354,6 +354,15 @@ function Index() {
             <Reveal delay={260} className="h-full">
               <img src={images.carrotcake} alt="Carrot cake slice with cream" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
+                        <Reveal delay={80} className="h-full">
+              <img src={images.galleryNew1} alt="JITHER gallery photo 1" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+            <Reveal delay={140} className="h-full">
+              <img src={images.galleryNew2} alt="JITHER gallery photo 2" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+            <Reveal delay={200} className="col-span-2 h-full">
+              <img src={images.galleryNew3} alt="JITHER gallery photo 3" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
 
           </div>
         </div>
