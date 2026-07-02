@@ -532,7 +532,7 @@ function Index() {
   href="https://www.tiktok.com/@jither.ae"
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-flex items-center gap-3 rounded-full border border-forest/30 px-7 py-4 font-sans text-sm text-forest transition-colors hover:bg-forest hover:text-cream"
+  className="inline-flex items-center gap-3 rounded-full bg-accent/15 px-7 py-4 font-sans text-sm text-forest transition-colors hover:bg-accent/25"
 >
   TikTok
 </a>
