@@ -350,10 +350,6 @@ function Index() {
       {/* REVIEWS */}
       <section className="mx-auto max-w-7xl px-6 py-24 sm:px-8 sm:py-32">
         <Reveal className="mx-auto max-w-2xl text-center">
-          <div className="flex items-center justify-center gap-2">
-            <Stars count={5} />
-            <span className="font-sans text-sm text-muted-foreground">4.7 · 103 reviews</span>
-          </div>
           <h2 className="mt-5 text-4xl text-forest sm:text-5xl">What guests say</h2>
         </Reveal>
 
@@ -367,15 +363,13 @@ function Index() {
                 </blockquote>
                 <figcaption className="mt-6">
                   <p className="font-serif text-lg text-forest">{r.name}</p>
-                  <p className="font-sans text-xs uppercase tracking-widest text-accent">
-                    {r.role}
-                  </p>
                 </figcaption>
               </figure>
             </Reveal>
           ))}
         </div>
       </section>
+
 
       {/* LOCATION */}
       <section id="location" className="bg-secondary/60 py-24 sm:py-32">
