@@ -16,10 +16,14 @@ export const images = {
   storefront: "/images/outdoor-terrace.jpeg",
   signage: "/images/wall-signage.jpeg",
   hotchoc: "/images/hot-chocolate.jpeg",
-  bagelapron: "/images/bagel-apron.png",
+  bagelapron: "/images/cafe-dessert-drink.jpeg",
   orangecoffee: "/images/orange-coffee.jpeg",
   softserve: "/images/soft-serve.jpeg",
   hibiscus: "/images/hibiscus-tea.jpeg",
   coconutcake: "/images/coconut-cake.jpeg",
-  carrotcake: "/images/apple-pie.jpeg",
+  carrotcake: "/images/cake-latte-table.jpeg",
+
+  // Extra gallery options
+  cakeLatteTable: "/images/cake-latte-table.jpeg",
+  cafeDessertDrink: "/images/cafe-dessert-drink.jpeg",
 };
