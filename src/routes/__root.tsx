@@ -77,19 +77,33 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "JITHER | جذر — Specialty Coffee & Boutique Bakery Café, Abu Dhabi" },
+      {
+        name: "description",
+        content:
+          "JITHER is a boutique specialty coffee and bakery café in Al Raha, Abu Dhabi. Quiet-luxury space serving hand-crafted coffee, matcha, fresh pastries and bagels.",
+      },
+      { name: "author", content: "JITHER" },
+      { property: "og:title", content: "JITHER | جذر — Specialty Coffee & Boutique Bakery Café" },
+      {
+        property: "og:description",
+        content:
+          "A warm, minimal specialty coffee house in Abu Dhabi. Hand-crafted coffee, matcha and fresh-baked pastries.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "JITHER" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
+      },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Zilla+Slab:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap",
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
