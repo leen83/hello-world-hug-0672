@@ -300,94 +300,100 @@ function Index() {
         </div>
       </section>
 
-                  {/* GALLERY / ATMOSPHERE */}
+                        {/* GALLERY / ATMOSPHERE */}
       <section id="gallery" className="bg-forest py-24 text-cream sm:py-32">
         <div className="mx-auto max-w-6xl px-6 sm:px-8">
-          <Reveal className="max-w-2xl">
-            <p className="font-sans text-xs uppercase tracking-[0.35em] text-cream/65">Gallery</p>
+          <Reveal className="mx-auto max-w-3xl text-center">
+            <p className="font-sans text-xs uppercase tracking-[0.35em] text-cream/65">
+              Gallery
+            </p>
             <h2 className="mt-5 text-4xl sm:text-5xl">Moments at JITHER</h2>
-            <p className="mt-5 max-w-xl font-sans text-sm font-light leading-7 text-cream/75 sm:text-base">
-              A quieter look at the café — the tables, pours, bakes, and small details that make the space feel warm.
+            <p className="mx-auto mt-5 max-w-xl font-sans text-sm font-light leading-7 text-cream/75 sm:text-base">
+              A quiet look into our space — warm corners, soft light, fresh bakes,
+              and the small details that make JITHER feel like home.
             </p>
           </Reveal>
 
-          <div className="mt-14 grid gap-6 lg:grid-cols-12">
-            <Reveal className="lg:col-span-7">
+          <div className="mt-14 grid gap-6 lg:grid-cols-2">
+            <Reveal>
               <article className="overflow-hidden rounded-[2rem] bg-cream p-3 text-forest shadow-[0_28px_90px_-45px_rgba(0,0,0,0.8)]">
                 <img
                   src={images.interior}
-                  alt="JITHER café table with matcha and cake"
-                  className="h-[360px] w-full rounded-[1.5rem] object-cover object-center sm:h-[460px]"
+                  alt="JITHER café table with dessert and drink"
+                  className="h-[360px] w-full rounded-[1.5rem] object-cover object-center sm:h-[430px]"
                 />
-                <div className="px-3 pb-3 pt-5 sm:px-5">
-                  <p className="font-sans text-[11px] uppercase tracking-[0.28em] text-accent">Inside the café</p>
+                <div className="px-3 pb-4 pt-5 sm:px-5">
+                  <p className="font-sans text-[11px] uppercase tracking-[0.28em] text-accent">
+                    Inside the café
+                  </p>
                   <h3 className="mt-2 text-2xl">A calm corner for slow mornings</h3>
                 </div>
               </article>
             </Reveal>
 
-            <div className="grid gap-6 lg:col-span-5">
-              <Reveal delay={90}>
-                <article className="overflow-hidden rounded-[2rem] bg-cream p-3 text-forest shadow-[0_24px_80px_-45px_rgba(0,0,0,0.75)]">
-                  <img
-                    src={images.storefront}
-                    alt="JITHER outdoor terrace"
-                    className="h-[220px] w-full rounded-[1.5rem] object-cover object-center sm:h-[250px]"
-                  />
-                  <div className="px-3 pb-3 pt-4">
-                    <p className="font-sans text-[11px] uppercase tracking-[0.28em] text-accent">Al Raha</p>
-                    <h3 className="mt-2 text-xl">A hidden stop in the city</h3>
-                  </div>
-                </article>
-              </Reveal>
-
-              <Reveal delay={160}>
-                <article className="overflow-hidden rounded-[2rem] bg-cream p-3 text-forest shadow-[0_24px_80px_-45px_rgba(0,0,0,0.75)]">
-                  <img
-                    src={images.signage}
-                    alt="JITHER wall signage"
-                    className="h-[220px] w-full rounded-[1.5rem] object-cover object-center sm:h-[250px]"
-                  />
-                  <div className="px-3 pb-3 pt-4">
-                    <p className="font-sans text-[11px] uppercase tracking-[0.28em] text-accent">Details</p>
-                    <h3 className="mt-2 text-xl">Warm light, natural textures</h3>
-                  </div>
-                </article>
-              </Reveal>
-            </div>
+            <Reveal delay={100}>
+              <article className="overflow-hidden rounded-[2rem] bg-cream p-3 text-forest shadow-[0_28px_90px_-45px_rgba(0,0,0,0.8)]">
+                <img
+                  src={images.storefront}
+                  alt="JITHER outdoor terrace"
+                  className="h-[360px] w-full rounded-[1.5rem] object-cover object-center sm:h-[430px]"
+                />
+                <div className="px-3 pb-4 pt-5 sm:px-5">
+                  <p className="font-sans text-[11px] uppercase tracking-[0.28em] text-accent">
+                    Al Raha
+                  </p>
+                  <h3 className="mt-2 text-2xl">A hidden stop in the city</h3>
+                </div>
+              </article>
+            </Reveal>
           </div>
 
           <div className="mt-6 grid gap-6 md:grid-cols-3">
             <Reveal delay={80}>
               <article className="overflow-hidden rounded-[2rem] bg-cream p-3 text-forest shadow-[0_20px_70px_-45px_rgba(0,0,0,0.75)]">
                 <img
-                  src={images.orangecoffee}
-                  alt="JITHER orange coffee"
-                  className="h-[230px] w-full rounded-[1.5rem] object-cover object-center"
+                  src={images.signage}
+                  alt="JITHER wall signage"
+                  className="h-[250px] w-full rounded-[1.5rem] object-cover object-center"
                 />
-                <h3 className="px-3 pb-3 pt-4 text-xl">Signature pours</h3>
+                <div className="px-3 pb-4 pt-4">
+                  <p className="font-sans text-[11px] uppercase tracking-[0.28em] text-accent">
+                    Details
+                  </p>
+                  <h3 className="mt-2 text-xl">Warm light, natural textures</h3>
+                </div>
               </article>
             </Reveal>
 
             <Reveal delay={150}>
               <article className="overflow-hidden rounded-[2rem] bg-cream p-3 text-forest shadow-[0_20px_70px_-45px_rgba(0,0,0,0.75)]">
                 <img
-                  src={images.hotchoc}
-                  alt="JITHER hot chocolate"
-                  className="h-[230px] w-full rounded-[1.5rem] object-cover object-center"
+                  src={images.coconutcake}
+                  alt="JITHER coconut cake"
+                  className="h-[250px] w-full rounded-[1.5rem] object-cover object-center"
                 />
-                <h3 className="px-3 pb-3 pt-4 text-xl">Soft, cozy drinks</h3>
+                <div className="px-3 pb-4 pt-4">
+                  <p className="font-sans text-[11px] uppercase tracking-[0.28em] text-accent">
+                    Fresh bakes
+                  </p>
+                  <h3 className="mt-2 text-xl">Soft cakes and quiet moments</h3>
+                </div>
               </article>
             </Reveal>
 
             <Reveal delay={220}>
               <article className="overflow-hidden rounded-[2rem] bg-cream p-3 text-forest shadow-[0_20px_70px_-45px_rgba(0,0,0,0.75)]">
                 <img
-                  src={images.coconutcake}
-                  alt="JITHER coconut cake"
-                  className="h-[230px] w-full rounded-[1.5rem] object-cover object-center"
+                  src={images.coldbrew}
+                  alt="JITHER drink on wooden tray"
+                  className="h-[250px] w-full rounded-[1.5rem] object-cover object-center"
                 />
-                <h3 className="px-3 pb-3 pt-4 text-xl">Fresh bakes</h3>
+                <div className="px-3 pb-4 pt-4">
+                  <p className="font-sans text-[11px] uppercase tracking-[0.28em] text-accent">
+                    Crafted drinks
+                  </p>
+                  <h3 className="mt-2 text-xl">Simple pours, beautifully served</h3>
+                </div>
               </article>
             </Reveal>
           </div>
