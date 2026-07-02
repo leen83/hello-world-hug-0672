@@ -1,20 +1,25 @@
 export const images = {
-  toast: "/IMG_8449.jpeg",
-  latte: "/IMG_8451.jpeg",
-  storefront: "/IMG_8450.jpeg",
-  matcha: "/IMG_8450.jpeg",
-  bagel: "/IMG_8451.jpeg",
-  interior: "/IMG_8450.jpeg",
-  sign: "/IMG_8451.jpeg",
-  icedcoffee: "/IMG_8450.jpeg",
-  pastries: "/IMG_8451.jpeg",
-  coldbrew: "/IMG_8450.jpeg",
-  coconutcake: "/IMG_8449.jpeg",
-  carrotcake: "/IMG_8451.jpeg",
-  softserve: "/IMG_8449.jpeg",
-  hotchoc: "/IMG_8449.jpeg",
-  orangecoffee: "/IMG_8450.jpeg",
-  hibiscus: "/IMG_8450.jpeg",
-  signage: "/IMG_8451.jpeg",
-  bagelapron: "/IMG_8451.jpeg",
+  // Menu cards
+  latte: "/images/spanish-latte.jpeg",
+  matcha: "/images/matcha-latte.jpeg",
+  pastries: "/images/almond-croissant.jpeg",
+  bagel: "/images/smoked-turkey-bagel.jpeg",
+
+  // Hero + about
+  icedcoffee: "/images/hero-coffee-croissant.jpeg",
+  sign: "/images/jither-sign-closeup.jpeg",
+
+  // Gallery
+  interior: "/images/cafe-table.jpeg",
+  coldbrew: "/images/iced-tea.jpeg",
+  toast: "/images/apple-pie.jpeg",
+  storefront: "/images/outdoor-terrace.jpeg",
+  signage: "/images/wall-signage.jpeg",
+  hotchoc: "/images/hot-chocolate.jpeg",
+  bagelapron: "/images/bagel-apron.png",
+  orangecoffee: "/images/orange-coffee.jpeg",
+  softserve: "/images/soft-serve.jpeg",
+  hibiscus: "/images/hibiscus-tea.jpeg",
+  coconutcake: "/images/coconut-cake.jpeg",
+  carrotcake: "/images/apple-pie.jpeg",
 };
