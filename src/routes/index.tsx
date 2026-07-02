@@ -310,51 +310,86 @@ function Index() {
             <h2 className="mt-5 text-4xl sm:text-5xl">A calm corner of the city</h2>
           </Reveal>
 
-          <div className="mt-16 grid auto-rows-[220px] grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
+          <div className="mt-16 grid auto-rows-[180px] grid-cols-2 gap-4 sm:auto-rows-[220px] sm:gap-5 lg:grid-cols-4">
             <Reveal className="col-span-2 row-span-2 h-full">
               <img
                 src={images.interior}
-                alt="Cozy JITHER café interior with olive-green lounge chairs"
-                className="h-full w-full rounded-3xl object-cover"
+                alt="JITHER table with a drink and dessert"
+                className="h-full w-full rounded-3xl object-cover object-center"
               />
             </Reveal>
-            <Reveal delay={80} className="h-full">
-              <img src={images.cakeLatteTable} alt="JITHER cake and latte on a table" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={140} className="h-full">
-              <img src={images.coldbrew} alt="Cold brew on a wooden board" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={200} className="h-full">
-              <img src={images.toast} alt="Egg salad avocado toast" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={260} className="h-full">
-              <img src={images.storefront} alt="JITHER outdoor terrace" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={80} className="h-full">
-              <img src={images.signage} alt="JITHER metal signage on a warm wall" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={140} className="h-full">
-              <img src={images.hotchoc} alt="Hot chocolate with toasted marshmallows" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={200} className="col-span-2 h-full">
-              <img src={images.bagelapron} alt="JITHER dessert and drink moment" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={260} className="h-full">
-              <img src={images.orangecoffee} alt="Iced orange coffee with dried citrus" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={80} className="h-full">
-              <img src={images.softserve} alt="JITHER soft serve with cocoa dusting" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-                        <Reveal delay={140} className="h-full">
-              <img src={images.hibiscus} alt="Iced hibiscus drink with dried orange" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={200} className="h-full">
-              <img src={images.coconutcake} alt="Coconut cake slice" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={260} className="h-full">
-              <img src={images.carrotcake} alt="Carrot cake slice with cream" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>     
 
+            <Reveal delay={80} className="h-full">
+              <img
+                src={images.coldbrew}
+                alt="Iced tea on a JITHER wooden board"
+                className="h-full w-full rounded-3xl object-cover object-center"
+              />
+            </Reveal>
+
+            <Reveal delay={140} className="h-full">
+              <img
+                src={images.storefront}
+                alt="JITHER outdoor terrace"
+                className="h-full w-full rounded-3xl object-cover object-center"
+              />
+            </Reveal>
+
+            <Reveal delay={200} className="h-full">
+              <img
+                src={images.toast}
+                alt="JITHER dessert slice on a plate"
+                className="h-full w-full rounded-3xl object-cover object-center"
+              />
+            </Reveal>
+
+            <Reveal delay={260} className="h-full">
+              <img
+                src={images.hotchoc}
+                alt="Hot chocolate with toasted marshmallows"
+                className="h-full w-full rounded-3xl object-cover object-[center_45%]"
+              />
+            </Reveal>
+
+            <Reveal delay={80} className="col-span-2 h-full">
+              <img
+                src={images.signage}
+                alt="JITHER metal signage on a warm wall"
+                className="h-full w-full rounded-3xl object-cover object-center"
+              />
+            </Reveal>
+
+            <Reveal delay={140} className="h-full">
+              <img
+                src={images.orangecoffee}
+                alt="Iced orange coffee with dried citrus"
+                className="h-full w-full rounded-3xl object-cover object-[center_40%]"
+              />
+            </Reveal>
+
+            <Reveal delay={200} className="h-full">
+              <img
+                src={images.softserve}
+                alt="JITHER soft serve with cocoa dusting"
+                className="h-full w-full rounded-3xl object-cover object-[center_45%]"
+              />
+            </Reveal>
+
+            <Reveal delay={260} className="h-full">
+              <img
+                src={images.hibiscus}
+                alt="Iced hibiscus drink with dried orange"
+                className="h-full w-full rounded-3xl object-cover object-[center_40%]"
+              />
+            </Reveal>
+
+            <Reveal delay={80} className="h-full">
+              <img
+                src={images.coconutcake}
+                alt="Coconut cake slice"
+                className="h-full w-full rounded-3xl object-cover object-center"
+              />
+            </Reveal>
           </div>
         </div>
       </section>
