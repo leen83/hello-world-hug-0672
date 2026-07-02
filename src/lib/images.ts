@@ -18,14 +18,6 @@ import img_signage from "@/assets/image-16.jpeg.asset.json";
 import img_bagelapron from "@/assets/image-2b.png.asset.json";
 
 export const images = {
-  coconutcake: img_coconutcake.url,
-  carrotcake: img_carrotcake.url,
-  softserve: img_softserve.url,
-  hotchoc: img_hotchoc.url,
-  orangecoffee: img_orangecoffee.url,
-  hibiscus: img_hibiscus.url,
-  signage: img_signage.url,
-  bagelapron: img_bagelapron.url,
   toast: img_toast.url,
   latte: img_latte.url,
   storefront: img_storefront.url,
@@ -36,8 +28,12 @@ export const images = {
   icedcoffee: img_icedcoffee.url,
   pastries: img_pastries.url,
   coldbrew: img_coldbrew.url,
-
-  galleryNew1: "/IMG_8449.jpeg",
-  galleryNew2: "/IMG_8450.jpeg",
-  galleryNew3: "/IMG_8451.jpeg",
+  coconutcake: img_coconutcake.url,
+  carrotcake: img_carrotcake.url,
+  softserve: img_softserve.url,
+  hotchoc: img_hotchoc.url,
+  orangecoffee: img_orangecoffee.url,
+  hibiscus: img_hibiscus.url,
+  signage: img_signage.url,
+  bagelapron: img_bagelapron.url,
 };
