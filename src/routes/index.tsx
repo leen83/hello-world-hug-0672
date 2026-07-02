@@ -355,7 +355,7 @@ function Index() {
               <img src={images.carrotcake} alt="Carrot cake slice with cream" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
 
-            <Reveal delay={80} className="h-full">
+                        <Reveal delay={80} className="h-full">
               <img src="/IMG_8449.jpeg" alt="JITHER gallery photo 1" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={140} className="h-full">
