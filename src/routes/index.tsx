@@ -168,7 +168,6 @@ function Index() {
           <h1 className="animate-fade-up mt-6 font-wordmark text-6xl font-bold leading-none sm:text-8xl">
             JITHER
           </h1>
-          <p className="mt-4 font-serif text-lg italic text-cream/90">جذر</p>
           <p className="mx-auto mt-6 max-w-xl font-sans text-base font-light leading-relaxed text-cream/85">
             A boutique specialty coffee house and bakery — where quiet luxury meets
             slow mornings, warm light, and craft in every cup.
