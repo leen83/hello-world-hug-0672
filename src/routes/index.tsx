@@ -168,11 +168,11 @@ function Index() {
           <p className="animate-fade-up font-sans text-xs uppercase tracking-[0.4em] text-cream/80">
             Al Raha · Abu Dhabi
           </p>
-          <h1 className="animate-fade-up mt-6 font-wordmark text-6xl font-700 leading-none sm:text-8xl">
+          <h1 className="animate-fade-up mt-6 font-wordmark text-6xl font-bold leading-none sm:text-8xl">
             JITHER
           </h1>
           <p className="mt-4 font-serif text-lg italic text-cream/90">جذر</p>
-          <p className="mx-auto mt-6 max-w-xl font-sans text-base font-300 leading-relaxed text-cream/85">
+          <p className="mx-auto mt-6 max-w-xl font-sans text-base font-light leading-relaxed text-cream/85">
             A boutique specialty coffee house and bakery — where quiet luxury meets
             slow mornings, warm light, and craft in every cup.
           </p>
@@ -213,7 +213,7 @@ function Index() {
             <h2 className="mt-5 text-4xl leading-tight text-forest sm:text-5xl">
               Rooted in warmth, brewed with intention
             </h2>
-            <div className="mt-6 space-y-4 font-sans text-base font-300 leading-relaxed text-muted-foreground">
+            <div className="mt-6 space-y-4 font-sans text-base font-light leading-relaxed text-muted-foreground">
               <p>
                 JITHER — <span className="italic">جذر</span>, meaning “root” — is a
                 hidden-gem café tucked into Al Raha. We built a calm, earthy space
@@ -272,7 +272,7 @@ function Index() {
                         {p.price}
                       </span>
                     </div>
-                    <p className="mt-2 font-sans text-sm font-300 leading-relaxed text-muted-foreground">
+                    <p className="mt-2 font-sans text-sm font-light leading-relaxed text-muted-foreground">
                       {p.desc}
                     </p>
                   </div>
@@ -290,7 +290,7 @@ function Index() {
             Drinks · Bakery · Sweets
           </p>
           <h2 className="mt-5 text-4xl text-forest sm:text-5xl">The Menu</h2>
-          <p className="mt-4 font-sans text-sm font-300 text-muted-foreground">
+          <p className="mt-4 font-sans text-sm font-light text-muted-foreground">
             A curated selection — ask our baristas about seasonal specials.
           </p>
         </Reveal>
@@ -378,7 +378,7 @@ function Index() {
             <Reveal key={r.name} delay={i * 100}>
               <figure className="flex h-full flex-col rounded-3xl bg-card p-8 shadow-[0_20px_50px_-30px_rgba(60,45,30,0.4)]">
                 <Stars count={r.stars} />
-                <blockquote className="mt-5 flex-1 font-sans text-sm font-300 leading-relaxed text-muted-foreground">
+                <blockquote className="mt-5 flex-1 font-sans text-sm font-light leading-relaxed text-muted-foreground">
                   “{r.text}”
                 </blockquote>
                 <figcaption className="mt-6">
@@ -407,7 +407,7 @@ function Index() {
                 <MapPin className="mt-1 shrink-0 text-accent" size={20} />
                 <div>
                   <p className="font-serif text-lg text-forest">Address</p>
-                  <p className="font-sans text-sm font-300 text-muted-foreground">
+                  <p className="font-sans text-sm font-light text-muted-foreground">
                     Alzeina, Al Raha RBW2, 1 — Abu Dhabi, United Arab Emirates
                   </p>
                 </div>
@@ -420,7 +420,7 @@ function Index() {
                     {hours.map(([d, t]) => (
                       <li
                         key={d}
-                        className="flex justify-between font-sans text-sm font-300 text-muted-foreground"
+                        className="flex justify-between font-sans text-sm font-light text-muted-foreground"
                       >
                         <span>{d}</span>
                         <span>{t}</span>
@@ -435,7 +435,7 @@ function Index() {
                   <p className="font-serif text-lg text-forest">Call</p>
                   <a
                     href="tel:+971585861551"
-                    className="font-sans text-sm font-300 text-muted-foreground hover:text-accent"
+                    className="font-sans text-sm font-light text-muted-foreground hover:text-accent"
                   >
                     058 586 1551
                   </a>
@@ -486,7 +486,7 @@ function Index() {
           <h2 className="mt-5 text-4xl text-forest sm:text-5xl">
             Follow the everyday at JITHER
           </h2>
-          <p className="mt-4 font-sans text-sm font-300 text-muted-foreground">
+          <p className="mt-4 font-sans text-sm font-light text-muted-foreground">
             @jither.ae · 12.5K+ followers — new pours, bakes, and quiet moments.
           </p>
           <a
@@ -522,14 +522,14 @@ function Index() {
       <footer className="bg-espresso text-cream/80">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 sm:grid-cols-3 sm:px-8">
           <div>
-            <p className="font-wordmark text-2xl font-700 text-cream">JITHER</p>
-            <p className="mt-4 max-w-xs font-sans text-sm font-300 leading-relaxed">
+            <p className="font-wordmark text-2xl font-bold text-cream">JITHER</p>
+            <p className="mt-4 max-w-xs font-sans text-sm font-light leading-relaxed">
               Boutique specialty coffee & bakery café. Rooted in Al Raha, Abu Dhabi.
             </p>
           </div>
           <div>
             <p className="font-serif text-lg text-cream">Explore</p>
-            <ul className="mt-4 space-y-2 font-sans text-sm font-300">
+            <ul className="mt-4 space-y-2 font-sans text-sm font-light">
               <li><a href="#about" className="hover:text-cream">About</a></li>
               <li><a href="#menu" className="hover:text-cream">Menu</a></li>
               <li><a href="#gallery" className="hover:text-cream">Gallery</a></li>
@@ -538,14 +538,14 @@ function Index() {
           </div>
           <div>
             <p className="font-serif text-lg text-cream">Contact</p>
-            <ul className="mt-4 space-y-2 font-sans text-sm font-300">
+            <ul className="mt-4 space-y-2 font-sans text-sm font-light">
               <li><a href="tel:+971585861551" className="hover:text-cream">058 586 1551</a></li>
               <li><a href="https://wa.me/971585861551" className="hover:text-cream">WhatsApp</a></li>
               <li><a href="https://instagram.com/jither.ae" className="hover:text-cream">@jither.ae</a></li>
             </ul>
           </div>
         </div>
-        <div className="border-t border-cream/10 py-6 text-center font-sans text-xs font-300 text-cream/50">
+        <div className="border-t border-cream/10 py-6 text-center font-sans text-xs font-light text-cream/50">
           © {new Date().getFullYear()} JITHER · جذر — Al Raha, Abu Dhabi. All rights reserved.
         </div>
       </footer>

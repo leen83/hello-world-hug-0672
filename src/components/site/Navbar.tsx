@@ -35,7 +35,7 @@ export function Navbar() {
         <a
           href="#home"
           className={cn(
-            "font-wordmark text-2xl font-700 transition-colors",
+            "font-wordmark text-2xl font-bold transition-colors",
             scrolled ? "text-forest" : "text-cream",
           )}
         >
