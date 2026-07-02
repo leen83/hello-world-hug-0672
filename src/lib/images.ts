@@ -36,4 +36,7 @@ export const images = {
   icedcoffee: img_icedcoffee.url,
   pastries: img_pastries.url,
   coldbrew: img_coldbrew.url,
+  galleryNew1: "/IMG_8449.jpeg",
+  galleryNew2: "/IMG_8450.jpeg",
+  galleryNew3: "/IMG_8451.jpeg",
 };
