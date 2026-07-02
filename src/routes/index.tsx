@@ -9,7 +9,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 import { Navbar } from "@/components/site/Navbar";
-import { Reveal, PhotoSlot } from "@/components/site/Reveal";
+import { Reveal } from "@/components/site/Reveal";
 import { images } from "@/lib/images";
 
 export const Route = createFileRoute("/")({
@@ -109,19 +109,16 @@ const menu = [
 const reviews = [
   {
     name: "Amira H.",
-    role: "Local Guide",
     text: "The coffee is sooo good — honestly one of the best I've had. The whole vibe of the place is elegant and cozy at the same time.",
     stars: 5,
   },
   {
     name: "Vladimir C.",
-    role: "Local Guide",
     text: "Very cozy vibe. The coffee tastes amazing and the pastries and bagels are delicious. Quiet and unassuming — perfect for remote work.",
     stars: 5,
   },
   {
     name: "Rashed A.",
-    role: "Local Guide",
     text: "Cool spot for coffee, already been there multiple times for their piccolo. Great quality coffee and highly recommended.",
     stars: 5,
   },
@@ -226,20 +223,7 @@ function Index() {
                 bagels each morning. Simple, considered, and made to feel like home.
               </p>
             </div>
-            <div className="mt-8 flex gap-10">
-              <div>
-                <p className="font-serif text-3xl text-forest">4.7★</p>
-                <p className="mt-1 font-sans text-xs uppercase tracking-widest text-muted-foreground">
-                  103 Reviews
-                </p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl text-forest">12.5K+</p>
-                <p className="mt-1 font-sans text-xs uppercase tracking-widest text-muted-foreground">
-                  Followers
-                </p>
-              </div>
-            </div>
+
           </Reveal>
         </div>
       </section>
@@ -348,17 +332,30 @@ function Index() {
               <img src={images.storefront} alt="JITHER outdoor terrace" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={80} className="h-full">
-              <PhotoSlot aspect="h-full" className="!rounded-3xl border-cream/30 bg-cream/5 text-cream/60" />
+              <img src={images.signage} alt="JITHER metal signage on a warm wall" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={140} className="h-full">
-              <PhotoSlot aspect="h-full" className="!rounded-3xl border-cream/30 bg-cream/5 text-cream/60" />
+              <img src={images.hotchoc} alt="Hot chocolate with toasted marshmallows" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={200} className="col-span-2 h-full">
-              <PhotoSlot aspect="h-full" className="!rounded-3xl border-cream/30 bg-cream/5 text-cream/60" />
+              <img src={images.bagelapron} alt="Barista holding a JITHER seeded bagel" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={260} className="h-full">
-              <PhotoSlot aspect="h-full" className="!rounded-3xl border-cream/30 bg-cream/5 text-cream/60" />
+              <img src={images.orangecoffee} alt="Iced orange coffee with dried citrus" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
+            <Reveal delay={80} className="h-full">
+              <img src={images.softserve} alt="JITHER soft serve with cocoa dusting" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+            <Reveal delay={140} className="h-full">
+              <img src={images.hibiscus} alt="Iced hibiscus drink with dried orange" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+            <Reveal delay={200} className="h-full">
+              <img src={images.coconutcake} alt="Coconut cake slice" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+            <Reveal delay={260} className="h-full">
+              <img src={images.carrotcake} alt="Carrot cake slice with cream" className="h-full w-full rounded-3xl object-cover" />
+            </Reveal>
+
           </div>
         </div>
       </section>
@@ -366,10 +363,6 @@ function Index() {
       {/* REVIEWS */}
       <section className="mx-auto max-w-7xl px-6 py-24 sm:px-8 sm:py-32">
         <Reveal className="mx-auto max-w-2xl text-center">
-          <div className="flex items-center justify-center gap-2">
-            <Stars count={5} />
-            <span className="font-sans text-sm text-muted-foreground">4.7 · 103 reviews</span>
-          </div>
           <h2 className="mt-5 text-4xl text-forest sm:text-5xl">What guests say</h2>
         </Reveal>
 
@@ -383,15 +376,13 @@ function Index() {
                 </blockquote>
                 <figcaption className="mt-6">
                   <p className="font-serif text-lg text-forest">{r.name}</p>
-                  <p className="font-sans text-xs uppercase tracking-widest text-accent">
-                    {r.role}
-                  </p>
                 </figcaption>
               </figure>
             </Reveal>
           ))}
         </div>
       </section>
+
 
       {/* LOCATION */}
       <section id="location" className="bg-secondary/60 py-24 sm:py-32">
