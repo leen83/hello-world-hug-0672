@@ -342,15 +342,6 @@ function Index() {
             <Reveal delay={260} className="h-full">
               <img src={images.orangecoffee} alt="Iced orange coffee with dried citrus" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
-                        <Reveal delay={80} className="h-full">
-              <img src="/IMG_8449.jpeg" alt="JITHER gallery photo 1" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={140} className="h-full">
-              <img src="/IMG_8450.jpeg" alt="JITHER gallery photo 2" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={200} className="col-span-2 h-full">
-              <img src="/IMG_8451.jpeg" alt="JITHER gallery photo 3" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
             <Reveal delay={80} className="h-full">
               <img src={images.softserve} alt="JITHER soft serve with cocoa dusting" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
@@ -362,17 +353,7 @@ function Index() {
             </Reveal>
             <Reveal delay={260} className="h-full">
               <img src={images.carrotcake} alt="Carrot cake slice with cream" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-
-                        <Reveal delay={80} className="h-full">
-              <img src="/IMG_8449.jpeg" alt="JITHER gallery photo 1" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={140} className="h-full">
-              <img src="/IMG_8450.jpeg" alt="JITHER gallery photo 2" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
-            <Reveal delay={200} className="col-span-2 h-full">
-              <img src="/IMG_8451.jpeg" alt="JITHER gallery photo 3" className="h-full w-full rounded-3xl object-cover" />
-            </Reveal>
+            </Reveal>     
 
           </div>
         </div>
