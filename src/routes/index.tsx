@@ -319,7 +319,7 @@ function Index() {
               />
             </Reveal>
             <Reveal delay={80} className="h-full">
-              <img src={images.matcha} alt="Iced matcha latte" className="h-full w-full rounded-3xl object-cover" />
+              <img src={images.cakeLatteTable} alt="JITHER cake and latte on a table" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={140} className="h-full">
               <img src={images.coldbrew} alt="Cold brew on a wooden board" className="h-full w-full rounded-3xl object-cover" />
@@ -337,7 +337,7 @@ function Index() {
               <img src={images.hotchoc} alt="Hot chocolate with toasted marshmallows" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={200} className="col-span-2 h-full">
-              <img src={images.bagelapron} alt="Barista holding a JITHER seeded bagel" className="h-full w-full rounded-3xl object-cover" />
+              <img src={images.bagelapron} alt="JITHER dessert and drink moment" className="h-full w-full rounded-3xl object-cover" />
             </Reveal>
             <Reveal delay={260} className="h-full">
               <img src={images.orangecoffee} alt="Iced orange coffee with dried citrus" className="h-full w-full rounded-3xl object-cover" />
