@@ -300,96 +300,83 @@ function Index() {
         </div>
       </section>
 
-      {/* GALLERY / ATMOSPHERE */}
+            {/* GALLERY / ATMOSPHERE */}
       <section id="gallery" className="bg-forest py-24 text-cream sm:py-32">
         <div className="mx-auto max-w-7xl px-6 sm:px-8">
-          <Reveal className="mx-auto max-w-2xl text-center">
+          <Reveal className="mx-auto max-w-3xl text-center">
             <p className="font-sans text-xs uppercase tracking-[0.35em] text-cream/70">
-              The Atmosphere
+              Gallery
             </p>
-            <h2 className="mt-5 text-4xl sm:text-5xl">A calm corner of the city</h2>
+            <h2 className="mt-5 text-4xl sm:text-5xl">A glimpse inside JITHER</h2>
+            <p className="mx-auto mt-5 max-w-xl font-sans text-sm font-light leading-7 text-cream/75 sm:text-base">
+              Quiet corners, crafted drinks, fresh bakes, and everyday moments from our café.
+            </p>
           </Reveal>
 
-          <div className="mt-16 grid auto-rows-[180px] grid-cols-2 gap-4 sm:auto-rows-[220px] sm:gap-5 lg:grid-cols-4">
-            <Reveal className="col-span-2 row-span-2 h-full">
-              <img
-                src={images.interior}
-                alt="JITHER table with a drink and dessert"
-                className="h-full w-full rounded-3xl object-cover object-center"
-              />
+          <div className="mt-14 space-y-5">
+            <Reveal>
+              <div className="overflow-hidden rounded-[2rem] bg-cream/10 shadow-[0_24px_80px_-40px_rgba(0,0,0,0.65)]">
+                <img
+                  src={images.interior}
+                  alt="A quiet JITHER café table with a drink and dessert"
+                  className="h-[280px] w-full object-cover object-center sm:h-[360px] lg:h-[430px]"
+                />
+              </div>
             </Reveal>
 
-            <Reveal delay={80} className="h-full">
-              <img
-                src={images.coldbrew}
-                alt="Iced tea on a JITHER wooden board"
-                className="h-full w-full rounded-3xl object-cover object-center"
-              />
-            </Reveal>
+            <div className="grid gap-5 md:grid-cols-3">
+              <Reveal delay={80}>
+                <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-[1.75rem] bg-cream/10 p-2 shadow-[0_20px_60px_-35px_rgba(0,0,0,0.75)]">
+                  <img
+                    src={images.orangecoffee}
+                    alt="JITHER iced orange coffee"
+                    className="h-full w-full rounded-[1.4rem] object-contain"
+                  />
+                </div>
+              </Reveal>
 
-            <Reveal delay={140} className="h-full">
-              <img
-                src={images.storefront}
-                alt="JITHER outdoor terrace"
-                className="h-full w-full rounded-3xl object-cover object-center"
-              />
-            </Reveal>
+              <Reveal delay={160}>
+                <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-[1.75rem] bg-cream/10 p-2 shadow-[0_20px_60px_-35px_rgba(0,0,0,0.75)]">
+                  <img
+                    src={images.hibiscus}
+                    alt="JITHER iced hibiscus drink"
+                    className="h-full w-full rounded-[1.4rem] object-contain"
+                  />
+                </div>
+              </Reveal>
 
-            <Reveal delay={200} className="h-full">
-              <img
-                src={images.toast}
-                alt="JITHER dessert slice on a plate"
-                className="h-full w-full rounded-3xl object-cover object-center"
-              />
-            </Reveal>
+              <Reveal delay={240}>
+                <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-[1.75rem] bg-cream/10 p-2 shadow-[0_20px_60px_-35px_rgba(0,0,0,0.75)]">
+                  <img
+                    src={images.hotchoc}
+                    alt="JITHER hot chocolate"
+                    className="h-full w-full rounded-[1.4rem] object-contain"
+                  />
+                </div>
+              </Reveal>
+            </div>
 
-            <Reveal delay={260} className="h-full">
-              <img
-                src={images.hotchoc}
-                alt="Hot chocolate with toasted marshmallows"
-                className="h-full w-full rounded-3xl object-cover object-[center_45%]"
-              />
-            </Reveal>
+            <div className="grid gap-5 lg:grid-cols-2">
+              <Reveal delay={80}>
+                <div className="overflow-hidden rounded-[1.75rem] bg-cream/10 shadow-[0_20px_60px_-35px_rgba(0,0,0,0.75)]">
+                  <img
+                    src={images.coconutcake}
+                    alt="JITHER coconut cake slice"
+                    className="h-[260px] w-full object-cover object-center sm:h-[320px]"
+                  />
+                </div>
+              </Reveal>
 
-            <Reveal delay={80} className="col-span-2 h-full">
-              <img
-                src={images.signage}
-                alt="JITHER metal signage on a warm wall"
-                className="h-full w-full rounded-3xl object-cover object-center"
-              />
-            </Reveal>
-
-            <Reveal delay={140} className="h-full">
-              <img
-                src={images.orangecoffee}
-                alt="Iced orange coffee with dried citrus"
-                className="h-full w-full rounded-3xl object-cover object-[center_40%]"
-              />
-            </Reveal>
-
-            <Reveal delay={200} className="h-full">
-              <img
-                src={images.softserve}
-                alt="JITHER soft serve with cocoa dusting"
-                className="h-full w-full rounded-3xl object-cover object-[center_45%]"
-              />
-            </Reveal>
-
-            <Reveal delay={260} className="h-full">
-              <img
-                src={images.hibiscus}
-                alt="Iced hibiscus drink with dried orange"
-                className="h-full w-full rounded-3xl object-cover object-[center_40%]"
-              />
-            </Reveal>
-
-            <Reveal delay={80} className="h-full">
-              <img
-                src={images.coconutcake}
-                alt="Coconut cake slice"
-                className="h-full w-full rounded-3xl object-cover object-center"
-              />
-            </Reveal>
+              <Reveal delay={160}>
+                <div className="overflow-hidden rounded-[1.75rem] bg-cream/10 shadow-[0_20px_60px_-35px_rgba(0,0,0,0.75)]">
+                  <img
+                    src={images.storefront}
+                    alt="JITHER outdoor terrace seating"
+                    className="h-[260px] w-full object-cover object-center sm:h-[320px]"
+                  />
+                </div>
+              </Reveal>
+            </div>
           </div>
         </div>
       </section>
