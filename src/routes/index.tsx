@@ -223,20 +223,7 @@ function Index() {
                 bagels each morning. Simple, considered, and made to feel like home.
               </p>
             </div>
-            <div className="mt-8 flex gap-10">
-              <div>
-                <p className="font-serif text-3xl text-forest">4.7★</p>
-                <p className="mt-1 font-sans text-xs uppercase tracking-widest text-muted-foreground">
-                  103 Reviews
-                </p>
-              </div>
-              <div>
-                <p className="font-serif text-3xl text-forest">12.5K+</p>
-                <p className="mt-1 font-sans text-xs uppercase tracking-widest text-muted-foreground">
-                  Followers
-                </p>
-              </div>
-            </div>
+
           </Reveal>
         </div>
       </section>
