@@ -508,55 +508,79 @@ function Index() {
         </div>
       </section>
 
-      {/* INSTAGRAM / SOCIAL */}
-      <section id="contact" className="mx-auto max-w-7xl px-6 py-24 text-center sm:px-8 sm:py-32">
+            {/* INSTAGRAM / SOCIAL */}
+      <section
+        id="contact"
+        className="mx-auto max-w-7xl px-6 py-24 text-center sm:px-8 sm:py-32"
+      >
         <Reveal className="mx-auto max-w-2xl">
           <p className="font-sans text-xs uppercase tracking-[0.35em] text-accent">
             Stay Connected
           </p>
+
           <h2 className="mt-5 text-4xl text-forest sm:text-5xl">
             Follow the everyday at JITHER
           </h2>
+
           <p className="mt-4 font-sans text-sm font-light text-muted-foreground">
             @jither.ae · 12.5K+ followers — new pours, bakes, and quiet moments.
           </p>
-          <a
-            href="https://instagram.com/jither.ae"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-8 inline-flex items-center gap-2 rounded-full bg-forest px-7 py-3 font-sans text-sm text-cream transition-colors hover:bg-forest/90"
-          >
-            <Instagram size={18} /> @jither.ae
-          </a>
-          <a
-  href="https://www.tiktok.com/@jither.ae"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center gap-3 rounded-full bg-forest px-7 py-4 font-sans text-sm text-cream transition-colors hover:bg-forest/90"
->
-  TikTok
-</a>
+
+          <div className="mt-8 flex flex-wrap justify-center gap-4">
+            <a
+              href="https://instagram.com/jither.ae"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 rounded-full bg-forest px-7 py-4 font-sans text-sm text-cream transition-colors hover:bg-forest/90"
+            >
+              <Instagram size={20} /> @jither.ae
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@jither.ae"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 rounded-full bg-forest px-7 py-4 font-sans text-sm text-cream transition-colors hover:bg-forest/90"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path d="M16.6 5.82c-1.1-.72-1.83-1.96-1.83-3.37h-3.2v13.17c0 1.45-1.18 2.63-2.63 2.63s-2.63-1.18-2.63-2.63 1.18-2.63 2.63-2.63c.28 0 .55.04.8.13V9.86a6.04 6.04 0 0 0-.8-.05A5.83 5.83 0 1 0 14.77 15.64V8.52c1.16.84 2.58 1.34 4.12 1.34V6.66c-.84 0-1.63-.3-2.29-.84z" />
+              </svg>
+              TikTok
+            </a>
+          </div>
         </Reveal>
 
         <div className="mt-14 grid grid-cols-2 gap-4 sm:grid-cols-4">
-          {[images.latte, images.pastries, images.bagel, images.coldbrew].map((src, i) => (
-            <Reveal key={i} delay={i * 80}>
-              <a
-                href="https://instagram.com/jither.ae"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative block overflow-hidden rounded-2xl"
-              >
-                <img src={src} alt="JITHER on Instagram" className="aspect-square w-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                <span className="absolute inset-0 flex items-center justify-center bg-espresso/40 opacity-0 transition-opacity group-hover:opacity-100">
-                  <ArrowUpRight className="text-cream" />
-                </span>
-              </a>
-            </Reveal>
-          ))}
+          {[images.latte, images.pastries, images.bagel, images.coldbrew].map(
+            (src, i) => (
+              <Reveal key={i} delay={i * 80}>
+                <a
+                  href="https://instagram.com/jither.ae"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative block overflow-hidden rounded-2xl"
+                >
+                  <img
+                    src={src}
+                    alt="JITHER on Instagram"
+                    className="aspect-square w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <span className="absolute inset-0 flex items-center justify-center bg-espresso/40 opacity-0 transition-opacity group-hover:opacity-100">
+                    <ArrowUpRight className="text-cream" />
+                  </span>
+                </a>
+              </Reveal>
+            )
+          )}
         </div>
       </section>
-
       {/* FOOTER */}
       <footer className="bg-espresso text-cream/80">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 sm:grid-cols-3 sm:px-8">
