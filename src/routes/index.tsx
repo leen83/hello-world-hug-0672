@@ -424,16 +424,16 @@ function Index() {
       </section>
 
 
-      {/* LOCATION */}
+            {/* LOCATION */}
       <section id="location" className="bg-secondary/60 py-24 sm:py-32">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 sm:px-8 lg:grid-cols-2 lg:gap-16">
+        <div className="mx-auto max-w-4xl px-6 sm:px-8">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-[0.35em] text-accent">
               Visit
             </p>
             <h2 className="mt-5 text-4xl text-forest sm:text-5xl">Find your way in</h2>
 
-            <div className="mt-8 space-y-6">
+            <div className="mt-10 space-y-8">
               <div className="flex gap-4">
                 <MapPin className="mt-1 shrink-0 text-accent" size={20} />
                 <div>
@@ -443,15 +443,16 @@ function Index() {
                   </p>
                 </div>
               </div>
+
               <div className="flex gap-4">
                 <Clock className="mt-1 shrink-0 text-accent" size={20} />
                 <div className="w-full">
                   <p className="font-serif text-lg text-forest">Opening Hours</p>
-                  <ul className="mt-2 space-y-1">
+                  <ul className="mt-3 max-w-xl space-y-1">
                     {hours.map(([d, t]) => (
                       <li
                         key={d}
-                        className="flex justify-between font-sans text-sm font-light text-muted-foreground"
+                        className="flex justify-between gap-8 font-sans text-sm font-light text-muted-foreground"
                       >
                         <span>{d}</span>
                         <span>{t}</span>
@@ -460,6 +461,7 @@ function Index() {
                   </ul>
                 </div>
               </div>
+
               <div className="flex gap-4">
                 <Phone className="mt-1 shrink-0 text-accent" size={20} />
                 <div>
@@ -474,7 +476,7 @@ function Index() {
               </div>
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-10 flex flex-wrap gap-3">
               <a
                 href="https://maps.google.com/?q=Jither+Cafe+Al+Raha+Abu+Dhabi"
                 target="_blank"
@@ -491,18 +493,6 @@ function Index() {
               >
                 <MessageCircle size={16} /> WhatsApp
               </a>
-            </div>
-          </Reveal>
-
-          <Reveal delay={120}>
-            <div className="overflow-hidden rounded-3xl shadow-[0_30px_60px_-30px_rgba(60,45,30,0.5)]">
-              <iframe
-                title="JITHER Café location map"
-                src="https://www.google.com/maps?q=Al%20Raha%20Beach%20Abu%20Dhabi&output=embed"
-                className="h-[420px] w-full lg:h-full"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
             </div>
           </Reveal>
         </div>
